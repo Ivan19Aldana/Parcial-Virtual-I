@@ -18,13 +18,13 @@
 <ul class="nav nav-tabs">
 
     <li class="nav-item">
-        <a class="nav-link" href="{{url('/LISTADO')}}">LISTADO ALUMNO</a>
+        <a class="nav-link" href="{{url('/LISTADO')}}">LISTADO DE LOS ALUMNOS INSCRITOS</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="{{url('/CREAR')}}">INGRESAR NUEVO ALUMNO</a>
+        <a class="nav-link" href="{{url('/CREAR')}}">NUEVO ALUMNO</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="{{url('/LISTADO_cat')}}">LISTA CATEGORIA</a>
+        <a class="nav-link" href="{{url('/LISTADO_cat')}}">LISTA DE LAS CATEGORIA</a>
     </li>
 
 </ul>
