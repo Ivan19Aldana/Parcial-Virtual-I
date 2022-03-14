@@ -14,7 +14,7 @@ class categoriaSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('categoria')->insert([
+       /* DB::table('categoria')->insert([
             'id_categoria' => '1',
             'descripcion' => 'BUENO'
         ]);
@@ -27,7 +27,7 @@ class categoriaSeeder extends Seeder
         DB::table('categoria')->insert([
             'id_categoria' => '3',
             'descripcion' => 'MALO'
-        ]);
-
+        ]);*/
+        categoria::factory(100)->create();
     }
 }

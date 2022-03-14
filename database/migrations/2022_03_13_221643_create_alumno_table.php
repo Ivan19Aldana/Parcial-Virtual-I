@@ -14,17 +14,14 @@ class CreateAlumnoTable extends Migration
     public function up()
     {
         Schema::create('alumno', function (Blueprint $table) {
-            $table->string('carné');
-            $table->string('nombre');
-            $table->string('alias');
-            $table->string('foto');
-            $table->string('correo');
-            $table->string('fecha_nacimiento');
-            $table->string('telefono');
-            $table->integer('id_categoria');
-
-
-
+            $table->string("carne");
+            $table->string("nombre");
+            $table->string("alias");
+            $table->string("foto");
+            $table->string("correo");
+            $table->date("fecha_nacimiento");
+            $table->string("telefono");
+            $table->integer("id_categoria");
         });
     }
 

@@ -14,9 +14,9 @@ class alumnoSeeder extends Seeder
      */
     public function run()
     {
-        $foto = ('OPRdCCGb6A9nMhoWwQVpy221wDyydzaIsPcSveOx.jpg');
+        //$foto = ('OPRdCCGb6A9nMhoWwQVpy221wDyydzaIsPcSveOx.jpg');
 
-        DB::table('alumno')->insert([
+       /* DB::table('alumno')->insert([
             'carne' => '700',
             'nombre' => 'IVAN ALDANA ',
             'alias' => 'ALDANA',
@@ -36,8 +36,8 @@ class alumnoSeeder extends Seeder
             'fecha_nacimiento' => '2002-11-31',
             'telefono' => '78963120',
             'id_categoria' => '2',
-        ]);
-
+        ]);*/
+        alumno::factory(1000)->create();
 
     }
 }
